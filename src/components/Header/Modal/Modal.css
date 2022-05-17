@@ -1,0 +1,99 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  width: 620px;
+  border-radius: 14px;
+  z-index: 666;
+  top: -100%;
+  transition: all .4s ease;
+}
+
+.modal-show {
+  top: 20vh;
+}
+
+.total-flrx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.close-div {
+  margin-top: 20px;
+  float: right;
+}
+
+.close-div button {
+  padding: 13px 35px;
+  border: 1px solid #8a2b06;
+  background-color: inherit;
+  border-radius: 30px;
+  color: #8a2b06;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+
+.close-div button:hover {
+  background-color: #8a2b06;
+  color: #fff;
+}
+
+.new-li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 2px solid #8a2b06;
+  margin-bottom: 10px;
+}
+
+.new-li > h2 {
+  margin-bottom: 7px;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-new {
+  color: #8a2b06;
+}
+
+.x {
+  padding: 10px;
+  border: 1px solid #999;
+  color: #000;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.plus-btns button {
+  padding: 5px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: inherit;
+  border: 1px solid #8a2b06;
+  font-size: 20px;
+  color: #8a2b06;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: all .4s ease;
+}
+
+.plus-btns button:hover {
+  color: #fff;
+  background-color: #8a2b06;
+}
+
+.ul-new {
+  overflow-y: scroll;
+  max-height: 300px;
+
+}

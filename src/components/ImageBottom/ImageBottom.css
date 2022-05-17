@@ -1,0 +1,43 @@
+.img-bottom {
+  margin-top: 5rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 410px;
+}
+
+.img-bottom img {
+  width: 120%;
+  height: 320px;
+  transform: rotate(-5deg);
+  z-index: -1;
+  margin-left: -20px;
+  margin-top: -70px;
+  object-fit: cover;
+}
+
+.desc-fav {
+  position: absolute; 
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: #383838;
+  max-width: 45rem;
+  width: 90%;
+  box-shadow: 0 1px 18px 10px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+  color: #fff;
+  z-index: 222;
+  text-align: center;
+}
+
+.desc-fav h2 {
+  font-size: 37px;
+  margin-bottom: 30px;
+}
+
+.desc-fav > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}

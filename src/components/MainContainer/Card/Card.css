@@ -1,0 +1,71 @@
+.li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(194, 192, 192);
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.left-side > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #ad5502;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.amount {
+  display: flex;
+}
+
+.amount h3 {
+  margin-right: 10px;
+}
+
+.amount input {
+  width: 40px;
+  padding: 2px;
+  font-size: 18px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 5px;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  width: 110px;
+  margin-top: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 30px;
+  background-color: #8a2b06;
+  transition: all .4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.add:hover {
+  background-color: #641e03;
+}
+
